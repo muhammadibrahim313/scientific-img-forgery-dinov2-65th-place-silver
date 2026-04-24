@@ -2,7 +2,8 @@
 
 A segmentation pipeline for detecting copy-move forgeries in biomedical research images, built for the [Recod.ai/LUC Scientific Image Forgery Detection](https://www.kaggle.com/competitions/recodai-luc-scientific-image-forgery-detection) Kaggle competition.
 
-**Result:** 65th place, silver medal 🥈
+# **Result:** 65th place, silver medal 🥈
+![[(https://www.kaggle.com/certification/competitions/ibrahimqasimi/recodai-luc-scientific-image-forgery-detection)
 
 ## Overview
 
