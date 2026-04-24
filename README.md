@@ -81,10 +81,9 @@ python infer.py
 - Gradient-enhanced thresholding: the Sobel magnitude of the probability map is blended in at `alpha=0.45` before thresholding, which sharpens mask boundaries around high-confidence regions.
 - Morphological close then open removes speckle noise and fills in small gaps inside detected regions.
 - Area and mean-probability thresholds are grid-searched over the full validation set to decide whether to output a forged mask or `"authentic"`.
-
 ## Credit
 
-This pipeline builds on the public [Scientific-Forensics-DINOv2-CNN](https://www.kaggle.com/code/pankajiitr/scientific-forensics-dinov2-cnn-ipynb) notebook by [@pankajiitr](https://www.kaggle.com/pankajiitr). The core DINOv2-plus-decoder architecture and two-stage training strategy are his work. This repo refactors the notebook code into a modular package, adjusts the inference pipeline, and documents the approach.
+All public work on this competition, and especially [@pankajiitr](https://www.kaggle.com/pankajiitr).
 
 ## License
 
