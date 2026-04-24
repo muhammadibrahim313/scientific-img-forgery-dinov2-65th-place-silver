@@ -4,7 +4,7 @@ A segmentation pipeline for detecting copy-move forgeries in biomedical research
 
 # **Result:** 65th place, silver medal 🥈
 
-![img](github.com/muhammadibrahim313/scientific-img-forgery-dinov2-65th-place-silver/blob/main/img/LUC%20-%20Scientific%20Image%20Forgery%20Detection.jpeg?raw=true)
+![img](https://github.com/muhammadibrahim313/scientific-img-forgery-dinov2-65th-place-silver/blob/main/img/LUC%20-%20Scientific%20Image%20Forgery%20Detection.jpeg?raw=true)
 ## Overview
 
 DINOv2 (base, 768-dim features) is used as a frozen feature extractor. A small convolutional decoder (384 → 192 → 96 → 1 channels) upsamples the 37×37 token grid back to the full 518×518 input resolution and produces pixel-level forgery masks.
